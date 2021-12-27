@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+     <group android:checkableBehavior="single">
+         <item
+             android:id="@+id/nav_note"
+             android:icon="@drawable/ic_notes"
+             android:title="Note"
+             >
+         </item>
+         <item
+             android:id="@+id/nav_Calender"
+             android:icon="@drawable/ic_calendar_today"
+             android:title="Calender"
+             >
+         </item>
+         <item
+             android:id="@+id/nav_remind"
+             android:icon="@drawable/ic_notes"
+             android:title="Remind"
+             >
+         </item>
+         <item
+             android:id="@+id/nav_trash"
+             android:icon="@drawable/ic_restore_from_trash"
+             android:title="Trash"
+             >
+         </item>
+         <item
+             android:id="@+id/nav_settings"
+             android:icon="@drawable/ic_settings"
+             android:title="Settings"
+             >
+         </item>
+     </group>
+</menu>

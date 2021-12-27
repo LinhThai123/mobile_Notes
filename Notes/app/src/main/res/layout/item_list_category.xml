@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="@dimen/padding">
+
+    <ImageView
+        android:id="@+id/imgvMoveItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_unfold_more"
+        />
+
+    <TextView
+        android:id="@+id/tvItemCategory"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginStart="@dimen/marginStart"
+        android:layout_marginEnd="@dimen/marginEnd"
+        android:text="Title"
+        android:textSize="20sp"/>
+
+    <ImageView
+        android:id="@+id/imgvLockItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/marginEnd"
+        android:background="?attr/selectableItemBackground"
+        android:src="@drawable/ic_lock_open"
+        android:clickable="true"/>
+
+    <ImageView
+        android:id="@+id/imgvMoreCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:clickable="true"
+        android:src="@drawable/ic_more_vert"/>
+
+</LinearLayout>

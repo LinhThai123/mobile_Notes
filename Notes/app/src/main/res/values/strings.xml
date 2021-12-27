@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">MyNotes</string>
+    <string name="action_search">Search..</string>
+    <string name="nameApp">My Notes</string>
+    <string name="gmail">MyNotes@gmail.com</string>
+    <string name="nav_drawer_open">Open navigation drawer</string>
+    <string name="nav_drawer_close">Close navigation drawer</string>
+    <string name="title">Tag Management</string>
+    <string name="addnewtang">Add New Tag</string>
+    <string name="successfull">Successfull</string>
+    <string name="failed">Failed</string>
+    <string name="Add">ADD</string>
+    <string name="Cancel">Cancel</string>
+    <string name="Tag_title">Title</string>
+    <string name="content">Content</string>
+    <string name="change_tag">Change Tag</string>
+    <string name="change_background">Change Background</string>
+    <string name="share">Share</string>
+    <string name="Delete">Delete</string>
+    <string name="deleteNote">Xóa ghi chú thành công</string>
+    <string name="deleteNote2">Xóa ghi chú thất bại</string>
+</resources>

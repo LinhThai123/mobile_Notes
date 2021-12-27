@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/llItemNote"
+    android:orientation="vertical"
+    android:padding="@dimen/padding"
+    android:elevation="2dp"
+    android:layout_margin="5dp"
+    android:background="@drawable/custom_background_item_note"
+    >
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Title 1"
+        android:textSize="@dimen/textsize22"/>
+    <TextView
+        android:id="@+id/tvContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginTop"
+        android:text="@string/content"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/tvDateUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginTop"
+        android:text="22/11/2021"
+        android:textSize="@dimen/textsize16"/>
+
+</LinearLayout>

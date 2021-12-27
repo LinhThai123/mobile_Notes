@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/padding"
+    android:background="@drawable/custom_background_activity_add_category">
+
+    <TextView
+        android:id="@+id/tvTitleActivityAddUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/paddingBottom"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/marginTop"
+        android:text="@string/addnewtang"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/editTitleCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_header"
+        android:layout_marginTop="@dimen/marginTop"
+        android:hint="Write name tag here "
+        android:paddingStart="15dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/marginTop"
+        android:padding="@dimen/padding"
+
+        android:gravity="end">
+
+        <Button
+            android:id="@+id/btnCancelUpdateCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="@string/Cancel"
+            android:textColor="@color/Addnote"/>
+        <Button
+            android:id="@+id/btnAddUpdateCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="@string/Add"
+            android:textColor="@color/Addnote"/>
+
+    </LinearLayout>
+
+</LinearLayout>
